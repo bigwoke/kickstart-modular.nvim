@@ -21,5 +21,9 @@ return {
         },
       },
     },
+    source_selector = {
+      winbar = true,
+      statusline = false,
+    },
   },
 }
