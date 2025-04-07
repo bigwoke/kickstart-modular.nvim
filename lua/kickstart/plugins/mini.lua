@@ -4,6 +4,9 @@ return {
   { -- Collection of various small independent plugins/modules
     'nvim-mini/mini.nvim',
     config = function()
+      -- Automatically highlight word under cursor
+      require('mini.cursorword').setup()
+
       -- Better Around/Inside textobjects
       --
       -- Examples:
