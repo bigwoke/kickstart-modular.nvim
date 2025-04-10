@@ -1,0 +1,21 @@
+# InvokeAsync(StateHasChanged) for blazor
+snippet iashc
+	InvokeAsync(StateHasChanged);
+
+# constructor
+snippet ctor
+	public ${1:`expand('%:t:r')`}() {
+		${2}
+	}
+
+# inline xml documentation
+snippet ///
+	/// <summary>
+	/// ${1}
+	/// </summary>
+
+# if condition
+snippet if
+	if (${1}) {
+		${2}
+	}

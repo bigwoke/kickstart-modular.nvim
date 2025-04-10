@@ -67,6 +67,9 @@ return {
             require('telescope.themes').get_dropdown(),
           },
         },
+        defaults = {
+          file_ignore_patterns = { '%__virtual.cs$' }, -- Ignore virtual files from rzls: https://github.com/tris203/rzls.nvim?tab=readme-ov-file#telescope
+        },
       }
 
       -- Enable Telescope extensions if they are installed
